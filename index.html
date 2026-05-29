@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="quiz-container">
+
+    <div id="header">
+      <h1 id="quiz-title">General Knowledge Quiz</h1>
+      <span id="question-counter">Question 1 of 5</span>
+    </div>
+
+    <div id="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+
+    <div id="question-box">
+      <p id="question-text">Question will appear here</p>
+    </div>
+
+    <div id="options-box">
+      <!-- Answer buttons will be inserted here by JavaScript -->
+    </div>
+
+    <div id="footer">
+      <span id="score-display">Score: 0 correct</span>
+      <button id="next-btn" disabled>Next →</button>
+    </div>
+
+  </div>
+
+  <div id="results-screen" class="hidden">
+    <h2>Quiz Complete!</h2>
+    <p id="final-score">You scored 0 out of 5</p>
+    <button id="restart-btn">Play Again</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
